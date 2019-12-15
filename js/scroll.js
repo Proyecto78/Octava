@@ -13,6 +13,20 @@ $(document).ready(function(){
         return false;
           }
     });
+//---sinopsis---
+	$(".nomues").hide();
+		$(".sinop").click(function(){
+					var nodo = $(this).attr("href");
+
+					if ($(nodo).is(":visible")){
+							 $(nodo).hide();
+							 return false;
+					}else{
+				$(".nomues").hide("slow");
+				$(nodo).fadeToggle("fast");
+				return false;
+					}
+		});
 //---productos---
 $(".filter-button").click(function(){
         var value = $(this).attr('data-filter');

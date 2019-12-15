@@ -1,32 +1,76 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <link href="https://vjs.zencdn.net/7.5.5/video-js.css" rel="stylesheet"/>
-  <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
-  <link rel="stylesheet" href="../css/style.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-  <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
-  <script src="../js/jquery-3.2.1.min.js"></script>
-  <script src="../js/scroll.js"></script>
-  <script src="../js/bootstrap.min.js"></script>
-  <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
-  <meta charset="utf-8">
-  <title>Octava-Iron Man</title>
-</head>
+  <head>
+    <link href="https://vjs.zencdn.net/7.5.5/video-js.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/scroll.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+    <meta charset="utf-8">
+    <title>Octava-Iron Man 2</title>
+  </head>
   <body>
     <div class="container">
       <div class="row">
-        <section class="col-md-12 center">
-          <video id="my-video" class="video-js" autoplay controls preload="none" width="932" height="524" data-setup="{}">
-            <source src="https://fvs.io/redirector?token=QlJ1cnBtdTNlMlJVaENWd24zS3k1bDd4enEraGtlYlNVOXFWbC9PYnU5djdHTXpUNHRGMWZpd0pKcERlWWhPd3dhZEVXR2RlMlhaU2hSdThLQkx5d29RaENEWE5UdjBoN3RaVzlEVXJtb3JKeGdITTN3TzFLMTZ4WjUxOXBIT3F3b0JMZEdYVWFaV0p5d01ac1FxNW1YbUltQmZOaVE9PTo1dWhSZmtwajZMMGZEVHl0TFBiWHRnPT0" type="video/mp4"/>
-            <p class="vjs-no-js">
-              Tu dispositivo no soporta JavaScript, y es recomendable que lo actualices<a href="https://videojs.com/html5-video-support/" target="_blank">por uno que soporte HTML5</a>
-            </p>
-          </video>
-
-          <script src="https://vjs.zencdn.net/7.5.5/video.js"></script>
-
+        <br/>
+        <a href="../index.html"><i class="far fa-arrow-alt-circle-left"></i> Catalogo</a>
+        <br/>
+        <section class="container col-xs-8 col-sm-8 col-md-8 col-lg-8">
+          <div class="row">
+            <div class="col-md-6 well">
+              <a href="#info1" class="inf">Ver Pelicula</a>
+            </div>
+            <div class="col-md-6 well">
+              <a href="#info2" class="inf">Ver Trailer</a>
+            </div>
+          </div>
+          <!-- contenido informacion adicional -->
+          <div class="row">
+            <div id="info1" class="col-xs-12 col-sm-12 col-md-8 col-lg-8 well oculto">
+              <div class="mapa col-md-12 col-lg-12">
+                <video id="my-video" class="video-js" autoplay controls preload="none" width="765" height="524" data-setup="{}">
+                  <source src="https://fvs.io/redirector?token=SHN1b3hkdi9GR0M1Q004TWxKUzYzY0sxWjNLSTV1TW9wNjVmT2wxdWdzMXlNVGlETnREUEZHYWdUT0JId096WTB6U3JrUkV3MitCbWRpTFdQcWJtUmNacmF5RlBqTFY1c1lOa3c4SFJxaUtQRVRQbnozd1RkNlFVVG1Da0t4NWtwMXh5dERzMXVDSmJQOE5UZ2g4MVBHKzhlaWhEYkE9PTpLbEE3dHJteWlVd0oyNlNseTB6QzNRPT0" type="video/mp4"/>
+                  <p class="vjs-no-js">
+                    Tu dispositivo no soporta JavaScript, y es recomendable que lo actualices<a href="https://videojs.com/html5-video-support/" target="_blank">por uno que soporte HTML5</a>
+                  </p>
+                </video>
+                <script src="https://vjs.zencdn.net/7.5.5/video.js"></script>
+              </div>
+            </div>
+            <div id="info2" class="col-xs-12 col-sm-12 col-md-8 col-lg-8 well oculto">
+              <div class="mapa col-md-12 col-lg-12">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/opL2ADRqBDM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
         </section>
+        <article class="sinopsis col-xs-4 col-sm-4 col-md-4 col-lg-4">
+            <img src="https://upload.wikimedia.org/wikipedia/en/e/ed/Iron_Man_2_poster.jpg" class="img-responsive">
+            <h2>Iron Man</h2>
+            <div class="row">
+              <div class="col-sm-6 col-md-6 mues">
+                <a href="#sinop" class="sinop">Sinopsis [+]</a>
+              </div>
+            </div>
+            <!-- contenido informacion adicional -->
+            <div class="row">
+              <div id="sinop" class="col-xs-12 muestra nomues">
+                <div class="col-md-12 col-lg-12">
+                  <p>Título original: Iron Man 2<br>
+                    Año: 2010<br>
+                    Duración: 124 min.<br>
+                    Sinopsis: El mundo ya sabe que el multimillonario Tony Stark (Robert Downey Jr.) es Iron Man, el superhéroe enmascarado. A pesar de las presiones del gobierno, la prensa y la opinión pública para que comparta su tecnología con el ejército, Tony es reacio a desvelar los secretos de la armadura de Iron Man, porque teme que esa información caiga en en manos de irresponsables. Con Pepper Potts (Gwyneth Paltrow) y James “Rhodey” Rhodes (Don Cheadle) a su lado, Tony forja alianzas nuevas y se enfrenta a nuevas y poderosas fuerzas.<br>
+                    Dirección: Jon Favreau<br>
+                    Reparto: Robert Downey Jr., Mickey Rourke, Gwyneth Paltrow, Don Cheadle, Sam Rockwell, Scarlett Johansson, Samuel L. Jackson, Paul Bettany, Jon Favreau, Clark Gregg, Leslie Bibb, John Slattery, Garry Shandling, Kate Mara, Christiane Amanpour, Philippe Bergeron, James Bethea, Michael Bruno, Kate Clark, DJ AM, Tim Guinee, Eric L. Haney, Yevgeni Lazarev, Jean-François Duhamel, Stan Lee, Helena Mattsson, Anya Monzikova, Olivia Munn, Elon Musk, Bill O’Reilly, Alejandro Patino, Karim Saleh, Brian Schaeffer, Phillipe Simon, Krystal Ellsworth, Jennifer D. Johnson, Rachele Brooke Smith, Nadine Ellis<br>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </article>
       </div>
     </div>
 
